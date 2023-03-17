@@ -16,4 +16,7 @@ spring:
     password:
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: create # DB ??? ????(??? ???? ??? ?)
+    properties:
+      hibernate:
+        show_sql: true
